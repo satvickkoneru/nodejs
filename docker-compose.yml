@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
     nodejs-app:
-        image: satvickkoneru/mydomain
+        image: satvickkoneru/mydomain:latest
         container_name: mydomain
         hostname: mydomain
         ports:
@@ -10,7 +10,7 @@ services:
         networks:
             - example-net  
     nginx:
-        image: satvickkoneru/nginx
+        image: satvickkoneru/nginx:latest
         container_name: nginx
         hostname: nginx
         ports:
