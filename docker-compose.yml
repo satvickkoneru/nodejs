@@ -66,4 +66,5 @@ volumes:
   elastic_data: {}
 networks:
  example-net:
+  external: true
 
